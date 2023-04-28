@@ -1,0 +1,4 @@
+default: --no-source --color --format pretty
+android: PLATFORM=android -r features/support -r features/android -r features/step_definitions --exclude features/ios 
+ios: PLATFORM=ios -r features/support -r features/ios -r features/step_definitions --exclude features/android  
+

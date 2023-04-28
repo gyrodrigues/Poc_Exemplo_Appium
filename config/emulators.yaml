@@ -1,0 +1,24 @@
+emulators:
+ Nexus:
+   caps:
+    deviceName: "Nexus"
+    platformName: "Android"
+    version: "8.1"
+    app: "/Users/gustavoyam/Downloads/exemplo_appium/Decolar.apk"
+    appPackage: "com.android.systemui"
+    appActivity: "com.android.systemui.recents.RecentsActivity"
+    newCommandTimeout: "3600"
+    port: 4723
+    appium_port: 4723
+ iphone7:
+  caps:
+   deviceName: "iPhone 7"
+   platformName: "iOS"
+   platformVersion: "11.2"
+   versionNumber: "30E00FF4-798B-4E51-85ED-3F5F87362441"  
+   app: "/Users/gustavoyam/Downloads/exemplo_appium/WebViewApp"
+   newCommandTimeout: "3600"
+   automationName: "XCUITest"
+   port: 4723
+   appium_port: 4723
+ 

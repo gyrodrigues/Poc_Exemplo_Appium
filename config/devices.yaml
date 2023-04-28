@@ -1,0 +1,28 @@
+devices:
+ Nexus5:
+  caps:
+   deviceName: "Nexus5"
+   platformName: "Android"
+   version: "8.0.0"
+   app: ""
+   appPackage: "br.com.ftec.ailton.cadastrodecarrosweb"
+   appActivity: "br.com.ftec.ailton.cadastrodecarrosweb.MainActivity"
+   newCommandTimeout: "3600"
+   port: 4724
+   appium_port: 4724
+   appium_lib: { wait: 20, debug: false}
+
+ Iphone6:
+  caps:
+   deviceName: "Nexus5"
+   platformName: "Android"
+   version: "8.0.0"
+   app: ""
+   appPackage: "br.com.ftec.ailton.cadastrodecarrosweb"
+   appActivity: "br.com.ftec.ailton.cadastrodecarrosweb.MainActivity"
+   newCommandTimeout: "3600"
+   port: 4724
+   appium_port: 4724
+   appium_lib: { wait: 20, debug: false}
+
+
